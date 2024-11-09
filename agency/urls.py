@@ -8,7 +8,6 @@ router = routers.DefaultRouter()
 
 router.register("cats", SpyCatViewSet)
 router.register("mission", MissionViewSet)
-router.register("target", TargetViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
